@@ -1,0 +1,84 @@
+/* Базовые стили */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  color: #1d1d1f;
+  background: #f6f7f9;
+  margin: 0;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 8px 0;
+}
+
+p { margin: 6px 0; }
+
+/* Карточка события */
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e3e7;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  max-width: 680px;
+}
+
+/* Видимый промежуток между карточкой и формой */
+.interact {
+  margin-top: 20px;
+  max-width: 680px;
+}
+
+/* Кнопки */
+.btn {
+  background: #1463f3;
+  color: #fff;
+  border: 1px solid #0e4ec4;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Поля формы */
+.field {
+  border: 1px solid #d5d7de;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin: 0 0 12px 0;
+}
+
+.check { display: block; margin: 6px 0; }
+
+/* Сообщения об ошибках */
+.error {
+  color: #8a0c0c;
+  background: #fdecec;
+  border: 1px solid #f2b3b3;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin: 12px 0;
+}
+
+/* Результат и JSON */
+.result {
+  background: #f0f7ff;
+  color: #0b2a57;
+  border: 1px solid #b7d3ff;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin: 12px 0;
+}
+
+.json {
+  background: #0f172a;
+  color: #e2e8f0;
+  border: 1px solid #1e293b;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin: 12px 0;
+  overflow: auto;
+}
+
+.program { margin-top: 10px; }
